@@ -6,23 +6,23 @@ import errorHandler from "./middleware/error.middleware.js";
 
 const app = express();
 
-app.use(cors({
-  origin: process.env.CLIENT_URL,
-  credentials: true,
-}));
-
+// Middlewares
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Routes
 app.use("/api", routes);
 
+// Home Route
 app.get("/", (req, res) => {
-  res.json({
+  res.status(200).json({
     success: true,
-    message: "API Running",
+    message: "🚀 Welcome to Notes App API",
   });
 });
 
+// Error Middleware (Always Last)
 app.use(errorHandler);
 
 export default app;
