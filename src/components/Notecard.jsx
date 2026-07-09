@@ -31,7 +31,7 @@ function NoteCard({ note, onDelete }) {
       <div className="note-card-footer">
         <div className="note-date">
           <FaRegCalendarAlt />
-          <span>{formatDate(note.createdAt)}
+          <span>{formatDate(note.createdAt)}</span>
         </div>
 
         <div className="note-actions">
