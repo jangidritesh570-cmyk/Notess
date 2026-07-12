@@ -137,13 +137,12 @@ export default function Signup() {
 
           <div
             style={{
-              display: "flex",
-              alignItems: "center",
-              border: "1px solid #ddd",
-              borderRadius: "8px",
-              padding: "10px",
-              marginTop: "6px",
-            }}
+  flex: 1,
+  border: "none",
+  outline: "none",
+  marginLeft: "10px",
+  fontSize: "16px",
+}}
           >
             <FaUser />
 
@@ -158,6 +157,7 @@ export default function Signup() {
                 border: "none",
                 outline: "none",
                 marginLeft: "10px",
+                fontSize: "16px",
               }}
             />
           </div>
@@ -170,13 +170,12 @@ export default function Signup() {
 
           <div
             style={{
-              display: "flex",
-              alignItems: "center",
-              border: "1px solid #ddd",
-              borderRadius: "8px",
-              padding: "10px",
-              marginTop: "6px",
-            }}
+  flex: 1,
+  border: "none",
+  outline: "none",
+  marginLeft: "10px",
+  fontSize: "16px",
+}}
           >
             <FaEnvelope />
 
@@ -191,6 +190,7 @@ export default function Signup() {
                 border: "none",
                 outline: "none",
                 marginLeft: "10px",
+                fontSize: "16px",
               }}
             />
           </div>
@@ -203,13 +203,12 @@ export default function Signup() {
 
           <div
             style={{
-              display: "flex",
-              alignItems: "center",
-              border: "1px solid #ddd",
-              borderRadius: "8px",
-              padding: "10px",
-              marginTop: "6px",
-            }}
+  flex: 1,
+  border: "none",
+  outline: "none",
+  marginLeft: "10px",
+  fontSize: "16px",
+}}
           >
             <FaLock />
 
@@ -226,6 +225,7 @@ export default function Signup() {
                 border: "none",
                 outline: "none",
                 marginLeft: "10px",
+                fontSize: "16px",
               }}
             />
 
@@ -258,13 +258,12 @@ export default function Signup() {
 
           <div
             style={{
-              display: "flex",
-              alignItems: "center",
-              border: "1px solid #ddd",
-              borderRadius: "8px",
-              padding: "10px",
-              marginTop: "6px",
-            }}
+  flex: 1,
+  border: "none",
+  outline: "none",
+  marginLeft: "10px",
+  fontSize: "16px",
+}}
           >
             <FaLock />
 
@@ -283,6 +282,7 @@ export default function Signup() {
                 border: "none",
                 outline: "none",
                 marginLeft: "10px",
+                fontSize: "16px",
               }}
             />
 

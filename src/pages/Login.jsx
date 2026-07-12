@@ -128,19 +128,19 @@ export default function Login() {
             <FaEnvelope color="#666" />
 
             <input
-              type="email"
-              name="email"
-              placeholder="Enter your email"
-              value={formData.email}
-              onChange={handleChange}
-              style={{
-                border: "none",
-                outline: "none",
-                marginLeft: "10px",
-                width: "100%",
-                fontSize: "15px",
-              }}
-            />
+  type="email"
+  name="email"
+  placeholder="Enter your email"
+  value={formData.email}
+  onChange={handleChange}
+  style={{
+    border: "none",
+    outline: "none",
+    marginLeft: "10px",
+    width: "100%",
+    fontSize: "16px",   // <-- 15 se 16
+  }}
+/>
           </div>
         </div>
 
@@ -169,19 +169,19 @@ export default function Login() {
             <FaLock color="#666" />
 
             <input
-              type={showPassword ? "text" : "password"}
-              name="password"
-              placeholder="Enter your password"
-              value={formData.password}
-              onChange={handleChange}
-              style={{
-                border: "none",
-                outline: "none",
-                marginLeft: "10px",
-                flex: 1,
-                fontSize: "15px",
-              }}
-            />
+  type={showPassword ? "text" : "password"}
+  name="password"
+  placeholder="Enter your password"
+  value={formData.password}
+  onChange={handleChange}
+  style={{
+    border: "none",
+    outline: "none",
+    marginLeft: "10px",
+    flex: 1,
+    fontSize: "16px",   // <-- 16
+  }}
+/>
 
             <button
               type="button"

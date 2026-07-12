@@ -111,18 +111,19 @@ export default function ForgotPassword() {
         >
           <FaEnvelope />
 
-          <input
-            type="email"
-            placeholder="Enter your email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            style={{
-              flex: 1,
-              border: "none",
-              outline: "none",
-              marginLeft: "10px",
-            }}
-          />
+         <input
+  type="email"
+  placeholder="Enter your email"
+  value={email}
+  onChange={(e) => setEmail(e.target.value)}
+  style={{
+    flex: 1,
+    border: "none",
+    outline: "none",
+    marginLeft: "10px",
+    fontSize: "16px",
+  }}
+/>
         </div>
 
         <button
